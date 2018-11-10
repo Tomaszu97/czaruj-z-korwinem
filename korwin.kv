@@ -1,0 +1,84 @@
+#:kivy 1.10.1
+#:import hex kivy.utils.get_color_from_hex
+
+<MainController@PageLayout>:
+
+    GridLayout:
+        cols: 3
+        rows: 4
+        padding: 10
+        spacing: 10
+
+        Button:
+            text: 'ATAK CYBORGA'
+            on_press: root.atak_cyborga.play()
+        Button:
+            text: 'AWARIA\nCYBERNETYCZNEJ KRTANI'
+            on_press: root.awaria_cybernetycznej_krtani.play()
+        Button:
+            text: 'INFORMACJA DLA\nREPTILIAŃSKICH\nZWIERZCHNIKÓW'
+            on_press: root.informacja_dla_reptilianskich_zwierzchnikow.play()
+
+        Button:
+            text: 'ŁADOWANIE\nATAKU OBSZAROWEGO'
+            on_press: root.ladowanie_ataku_obszarowego.play()
+        Button:
+            text: 'ŁADOWANIE MOCY'
+            on_press: root.ladowanie_mocy.play()
+        Button:
+            text: 'ODBLOKOWANIE\n5 CZARY'
+            on_press: root.odblokowanie_5_czary.play()
+
+        Button:
+            text: 'OKRZYK PLEMIENNY'
+            on_press: root.okrzyk_plemienny.play()
+        Button:
+            text: 'PRZEMIANA\nW JASZCZURA'
+            on_press: root.przemiana_w_jaszczura.play()
+        Button:
+            text: 'PRZYWOŁANIE\nBRACTWA REPTOIDÓW'
+            on_press: root.przywolanie_bractwa_reptoidow.play()
+
+        Button:
+            text: 'ZAKLĘCIE\n4 STRON ŚWIATA'
+            on_press: root.zaklecie_4_stron_swiata.play()
+        Button:
+            text: 'ZAKLĘCIE\n7 KRĘGU MAGII'
+            on_press: root.zaklecie_7_kregu_magii.play()
+        Button:
+            text: 'ZAKLĘCIE\nJASZCZURÓW'
+            on_press: root.zaklecie_niewybaczalne.play()
+
+    AnchorLayout:
+        anchor_x: 'center'
+        anchor_y: 'center'
+        canvas:
+            Color:
+                rgba: hex('#FF99E8')
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+        Image:
+            source: 'korwin.jpg'
+
+    BoxLayout:
+        orientation: 'horizontal'
+        canvas:
+            Color:
+                rgb: hex('#D3FF77')
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+        Label:
+            size_hint_x: 0.5
+            text: 'EAT ASS'
+            font_size: 50
+            bold: True
+            color: hex('#000000')
+        Button:
+            size_hint_x: 0.5
+            spacing: 50
+            text: 'haha :-D'
+            on_press: root.yellow_submarine.play()
