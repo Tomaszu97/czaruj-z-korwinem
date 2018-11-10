@@ -1,5 +1,5 @@
 #! /usr/bin/env python3 
-#dd
+
 import kivy
 kivy.require('1.10.1')
 from kivy.app import App

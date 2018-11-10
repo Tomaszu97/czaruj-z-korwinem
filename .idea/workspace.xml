@@ -58,10 +58,10 @@
         <entry file="file://$PROJECT_DIR$/korwin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <marker date="1541863482429" expanded="true" signature="309:1312" ph="..." />
-                <marker date="1541863482429" expanded="true" signature="1310:1312" ph="..." />
+                <marker date="1541863577756" expanded="true" signature="306:1309" ph="..." />
+                <marker date="1541863577756" expanded="true" signature="1307:1309" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="175" />
     <option name="y" value="9" />
     <option name="width" value="1400" />
@@ -229,10 +229,10 @@
     <entry file="file://$PROJECT_DIR$/korwin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <marker date="1541863482429" expanded="true" signature="309:1312" ph="..." />
-            <marker date="1541863482429" expanded="true" signature="1310:1312" ph="..." />
+            <marker date="1541863577756" expanded="true" signature="306:1309" ph="..." />
+            <marker date="1541863577756" expanded="true" signature="1307:1309" ph="..." />
           </folding>
         </state>
       </provider>
